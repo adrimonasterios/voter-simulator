@@ -22,11 +22,25 @@ body {
   text-align: left;
 }
 
+.scripts{
+	background-color: red;
+}
+
 #voter-form {
   position: relative;
 }
 
 #randomize-btn {
+  position: absolute;
+  bottom: 0;
+  left: 5rem;
+}
+
+#candidate-form{
+	position:relative;
+}
+
+.randomize-candidate,#randomize-btn {
   position: absolute;
   bottom: 0;
   left: 5rem;
@@ -75,5 +89,5 @@ body {
 #vote-btn-div .btn {
 	width: 100%;
 	height: 100%;
-	font-size: 4rem;	
+	font-size: 4rem;
 }
